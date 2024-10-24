@@ -1,14 +1,10 @@
-人工智能导论课 期末作业
 
+#### Reversi
 
+实验设置：
 
-#### 黑白棋
-
-实验要求：
-
-* 使用 『最小最大搜索』、『Alpha-Beta 剪枝搜索』 或 『蒙特卡洛树搜索算法』 实现 miniAlphaGo for Reversi（三种算法择一即可）。
+* 使用 『Alpha-Beta 剪枝搜索』 实现 miniAlphaGo for Reversi（三种算法择一即可）。
 * 使用 Python 语言。
-* 算法部分需要自己实现，不要使用现成的包、工具或者接口。
 
 
 
@@ -16,11 +12,13 @@ Result：
 
 实现 AIPlayer 类，采用 Alpha-Beta 剪枝搜索实现黑白棋 AI
 
+下一步想法：可用『最小最大搜索』或 『蒙特卡洛树搜索算法』 实现，然后对比不一样算法的性能
 
 
-#### 图像恢复
 
-实验要求：
+#### Image_restoration
+
+实验设置：
 
 * 生成受损图像，函数接口 noise_mask_image
   * 受损图像是由原始图像添加了不同噪声遮罩（noise masks）得到的
@@ -36,9 +34,9 @@ Result：
 
 
 
-#### 垃圾分类
+#### Waste_classification
 
-实验要求：
+实验设置：
 
 * 利用深度学习模型完成垃圾分类
 * 图片数据集来源：https://momodel.cn/explore/5d411ace1afd9427c236eab5?type=dataset
